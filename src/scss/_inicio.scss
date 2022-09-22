@@ -1,0 +1,66 @@
+.inicioContainer{
+    color: $colorLetras;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .info{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 60%;
+        justify-content: center;
+        padding: 20px;
+        h3{
+            font-weight: 200;
+            font-size: 13px;
+        }
+        .info-nombre{
+            display: flex;
+            font-size: 25px;
+            .nadir{
+                color: $colorPrimario;
+                margin-left: 10px;
+            }
+        }
+        h4{
+            font-weight: 300;
+        }
+        .descarga{
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            padding: 10px;
+            border: 1px solid $colorPrimario;
+            margin-top: 10px;
+            cursor: pointer;
+            i{
+                color: $colorPrimario;
+                margin-right: 5px;
+            }
+            a{
+                font-weight: 300;
+                text-decoration: none;
+                color: $colorPrimario;
+            }
+        }
+        .redes{
+            display: flex;
+            margin-top: 10px;
+            i{
+                font-size: 25px;
+                color: $colorLetras;
+                margin-right: 5px;
+            }
+            i:hover{
+                color: $colorPrimario;
+                transition: 0.3s;
+            }
+        }
+    }
+    .img{
+        img{
+            width: 400px;
+        }
+    }
+}

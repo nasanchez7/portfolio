@@ -1,0 +1,71 @@
+.habilidadesContainer{
+    padding: 30px;
+    max-height: 100vh;
+    h3{
+        color: $colorLetras;
+        font-weight: 600;
+    }
+    .card-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+        overflow-y: scroll;
+        .card{
+            background-color: $colorGris;
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            margin: 10px;
+            i{
+                font-size: 70px;
+                color: $colorPrimario;
+            }
+            h4{
+                color: $colorLetras;
+                font-weight: 400;
+                text-align: center;
+            }
+            p{
+                font-size: 10px;
+                color: $colorLetras;
+            }
+        }
+    }
+    .card-list::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    
+    .card-list::-webkit-scrollbar:vertical {
+        width:7px;
+    }
+    
+    .card-list::-webkit-scrollbar-button:increment ,.body::-webkit-scrollbar-button {
+        display: none;
+    } 
+    
+    .card-list::-webkit-scrollbar:horizontal {
+        height: 10px;
+    }
+    
+    .card-list::-webkit-scrollbar-track {
+        background: rgba(255, 166, 0, 0);        /* color of the tracking area */
+    }
+    
+    .card-list::-webkit-scrollbar-thumb {
+        background-color: $colorPrimario;
+        border-radius: 20px;
+        border: 2px solid $colorPrimario;
+    }
+    
+    .card-list::-webkit-scrollbar-track {
+        border-radius: 10px;  
+    }
+}

@@ -1,0 +1,62 @@
+nav{
+    background-color: $colorGris;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-right: 1px solid $colorLetras;
+    .logo{
+        display: flex;
+        justify-content: center;
+        h3{
+            font-family: 'Caveat', cursive;
+            font-size: 30px;
+        }
+        .nadir{
+            color: $colorLetras;
+        }
+        .sanchez{
+            color: $colorPrimario;
+        }
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+        .item{
+            display: flex;
+            align-items: center;
+            i{
+                color: $colorPrimario;
+                font-size: 18px;
+            }
+            a{
+                font-size: 15px;
+                margin-left: 10px;
+                text-decoration: none;
+                color: $colorLetras;
+                cursor: pointer;
+                margin-block: 2px;
+                position: relative;
+                &::after{
+                    content: "";
+                    width: 100%;
+                    height: 1px;
+                    background-color: $colorPrimario;
+                    border-radius: 4px;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: transform .25s ease;
+                }
+                &:hover::after{
+                    transform: scaleX(1);
+                }
+            }
+        }
+
+    }
+}
