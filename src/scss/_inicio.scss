@@ -4,13 +4,13 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 10px;
     .info{
         display: flex;
         flex-direction: column;
         height: 100%;
-        width: 60%;
         justify-content: center;
-        padding: 20px;
         h3{
             font-weight: 200;
             font-size: 13px;
@@ -60,7 +60,7 @@
     }
     .img{
         img{
-            width: 400px;
+            height: 600px;
         }
     }
 }

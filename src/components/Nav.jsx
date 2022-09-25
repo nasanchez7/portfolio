@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 const Nav = () => {
     return(
         <nav className="animate__animated animate__fadeInLeft">
-            <div className="logo">
-                <h3 className="nadir">Nadir</h3>
-                <h3 className="sanchez">Sanchez</h3>
-            </div>
+            <Link to={"/"}>
+                <div className="logo">
+                        <h3 className="nadir">Nadir</h3>
+                        <h3 className="sanchez">Sanchez</h3>
+                </div>
+            </Link>
             <ul>
                 <div className="item">
                     <i className='bx bxs-home'></i>

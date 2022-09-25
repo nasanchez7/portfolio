@@ -1,12 +1,11 @@
 # Portafolio
 
-- [Portafolio](https://github.com/nasanchez7 "OpenMarket") personal.
+- [Portafolio](https://nadirsanchez.netlify.app/ "Portafolio") personal.
 
 
 ## Esta web fue diseñada y contruida con
 
 - Sass.
-- JavaScript.
 - ReactJs.
 
 ## Versionado en

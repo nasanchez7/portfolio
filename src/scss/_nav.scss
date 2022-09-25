@@ -5,6 +5,9 @@ nav{
     flex-direction: column;
     padding: 30px;
     border-right: 1px solid $colorLetras;
+    a{
+        text-decoration: none;
+    }
     .logo{
         display: flex;
         justify-content: center;
