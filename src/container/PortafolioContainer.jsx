@@ -23,6 +23,7 @@ const PortafolioContainer = () => {
                         </ul>
                     </div>
                 </div>
+                <h3>iCrypto</h3>
             </div>
 
             <div class="card">
@@ -41,6 +42,7 @@ const PortafolioContainer = () => {
                         </ul>
                     </div>
                 </div>
+                <h3>Ecommerce MultiMarc</h3>
             </div>
 
             <div class="card">
@@ -60,6 +62,7 @@ const PortafolioContainer = () => {
                         </ul>
                     </div>
                 </div>
+                <h3>MyFilms</h3>
             </div>
 
             <div class="card">
@@ -78,6 +81,7 @@ const PortafolioContainer = () => {
                         </ul>
                     </div>
                 </div>
+                <h3>iTask</h3>
             </div>
 
             <div class="card">
@@ -96,6 +100,7 @@ const PortafolioContainer = () => {
                         </ul>
                     </div>
                 </div>
+                <h3>Nadir Burgers</h3>
             </div>
 
             <div class="card">
@@ -104,7 +109,7 @@ const PortafolioContainer = () => {
                 </div>
                 <div class="details">
                     <div class="center">
-                        <a href="https://nasanchez7.github.io/nike-form-validation/">Formulario de inicio de sesion Nike</a>
+                        <a href="https://nasanchez7.github.io/nike-form-validation/">Formulario Nike</a>
                         <p>NikeForm es un simple formulario inspirado en Nike que te permite 
                             iniciar sesion validando una "base de datos" (array de objetos) o crear un 
                             nuevo usuario e iniciar sesion con el mediante localStorage.
@@ -117,8 +122,8 @@ const PortafolioContainer = () => {
                         </ul>
                     </div>
                 </div>
+                <h3>Formulario Nike</h3>
             </div>
-
             </div>
         </div>
 
