@@ -15,6 +15,36 @@
 
 body{
     background-color: $colorNegro;
+}   
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width:7px;
+}
+
+body::-webkit-scrollbar-button:increment ,.body::-webkit-scrollbar-button {
+    display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(255, 166, 0, 0);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $colorPrimario;
+    border-radius: 20px;
+    border: 2px solid $colorPrimario;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;  
 }
 
 .App{
