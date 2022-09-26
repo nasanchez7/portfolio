@@ -1,0 +1,53 @@
+@media screen and (max-width: 890px){
+    .App{
+        display: grid;
+        grid-template-rows: 200px auto;
+        grid-template-columns: auto !important;
+        
+    }
+
+    nav{
+        height: 200px;
+        width: 100%;
+        border-bottom: 1px solid $colorLetras;
+        border-right: none;
+        ul{
+            flex-direction: row;
+        }
+    }
+
+    .inicioContainer{
+        flex-direction: column-reverse;
+        .info{
+            .info-nombre{
+                h2{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    .habilidadesContainer{
+        .card-list{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .portafolioContainer{
+        .proyectos-list{
+            grid-template-columns: 1fr;
+            .card{
+                margin-top: 40px;
+            }
+        }
+        
+    }
+    
+    .contactoContainer{
+        height: 100%;
+        .contactos{
+            height: auto;
+            grid-template-columns: 1fr;
+        }
+    }
+}
