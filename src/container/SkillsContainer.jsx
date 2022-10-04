@@ -24,7 +24,7 @@ const SkillsContainer = () => {
                     <h4>TypeScript</h4>
                 </div>
                 <div className="card">
-                    <i class='bx bxl-react' ></i>
+                    <i className='bx bxl-react' ></i>
                     <h4>ReactJS</h4>
                 </div>
                 <div className="card">
