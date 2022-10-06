@@ -8,8 +8,7 @@ const InicioContainer = () => {
                     <h2 className="nadir">Nadir Sanchez</h2>
                 </div>
                 <h4>
-                    Soy un desarrollador React apasionado por el diseño, maquetado y desarrollo de paginas
-                    web interactivas.
+                Soy un desarrollador React apasionado por la tecnologia y por el desarrollo de software
                 </h4>
                 <div className="redes">
                     <a href="https://www.linkedin.com/in/nadirsanchez/"><i className='bx bxl-linkedin-square'></i></a>
