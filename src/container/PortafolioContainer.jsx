@@ -7,6 +7,27 @@ const PortafolioContainer = () => {
 
             <div class="card">
                 <div class="image">
+                    <img src="/allmusic.JPG"/>
+                </div>
+                <div class="details">
+                    <div class="center">
+                        <a href="https://allmusicapp.netlify.app/">allMusic</a>
+                        <p> AllMusic es una Aplicacion de Musica totalmente funcional echa con ReactJs y con la API de Napster. 
+                        </p>
+                        <ul>
+                            <li><a href="#"><i className='bx bxl-html5'></i></a></li>
+                            <li><a href="#"><i className='bx bxl-css3' ></i></a></li>
+                            <li><a href="#"><i className='bx bxl-sass' ></i></a></li>
+                            <li><a href="#"><i className='bx bxl-javascript' ></i></a></li>
+                            <li><a href="#"><i className='bx bxl-react' ></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>allMusic</h3>
+            </div>    
+
+            <div class="card">
+                <div class="image">
                     <img src="/open.JPG"/>
                 </div>
                 <div class="details">
