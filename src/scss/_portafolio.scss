@@ -20,10 +20,8 @@
             border-radius: 10px;
         }
         .card {
-            //position: absolute;
             top: 50%;
             left: 50%;
-            //transform: translate(-50%,-50%);
             width: 250px;
             height: 115px;
             background: #000;
@@ -96,13 +94,15 @@
             background: #fff;
             color: $colorGris;
             padding: 5px;
-            //line-height: 30px;
             text-align: center;
             transform: .5s;
             i{
                 font-size: 30px;
                 color: $colorGris;
             }
+        }
+        img{
+            width: 60px;
         }
         .card .details .center ul li a:hover {
             transition: 0.3s;
@@ -126,7 +126,7 @@
     }
     
     .proyectos-list::-webkit-scrollbar-track {
-        background: rgba(255, 166, 0, 0);        /* color of the tracking area */
+        background: rgba(255, 166, 0, 0);       
     }
     
     .proyectos-list::-webkit-scrollbar-thumb {

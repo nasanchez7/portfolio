@@ -13,6 +13,11 @@
         height: 100%;
         padding: 20px;
         overflow-y: scroll;
+        .next{
+            img{
+                width: 120px;
+            }
+        }
         .card{
             background-color: $colorGris;
             height: 200px;
@@ -28,6 +33,7 @@
                 font-size: 70px;
                 color: $colorPrimario;
             }
+            
             h4{
                 color: $colorLetras;
                 font-weight: 400;

@@ -7,6 +7,23 @@ const PortafolioContainer = () => {
 
             <div class="card">
                 <div class="image">
+                    <img src="/allfilms.JPG"/>
+                </div>
+                <div class="details">
+                    <div class="center">
+                        <a href="https://allfilms.netlify.app/">allFilms</a>
+                        <p> allFilms es una aplicacion de peliculas y series, creada con Next JS y la API de themoviedb 
+                        </p>
+                        <ul>
+                            <li><img src="./next2.png" alt="nextjs"></img></li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>allFilms</h3>
+            </div>
+
+            <div class="card">
+                <div class="image">
                     <img src="/allmusic.JPG"/>
                 </div>
                 <div class="details">
@@ -15,8 +32,6 @@ const PortafolioContainer = () => {
                         <p> AllMusic es una Aplicacion de Musica totalmente funcional echa con ReactJs y con la API de Napster. 
                         </p>
                         <ul>
-                            <li><a href="#"><i className='bx bxl-html5'></i></a></li>
-                            <li><a href="#"><i className='bx bxl-css3' ></i></a></li>
                             <li><a href="#"><i className='bx bxl-sass' ></i></a></li>
                             <li><a href="#"><i className='bx bxl-javascript' ></i></a></li>
                             <li><a href="#"><i className='bx bxl-react' ></i></a></li>
@@ -36,8 +51,6 @@ const PortafolioContainer = () => {
                         <p> OpenMarket es un ecommerce de smartphones creado con ReactJS y firebase. 
                         </p>
                         <ul>
-                            <li><a href="#"><i className='bx bxl-html5'></i></a></li>
-                            <li><a href="#"><i className='bx bxl-css3' ></i></a></li>
                             <li><a href="#"><i className='bx bxl-sass' ></i></a></li>
                             <li><a href="#"><i className='bx bxl-javascript' ></i></a></li>
                             <li><a href="#"><i className='bx bxl-react' ></i></a></li>
@@ -58,8 +71,6 @@ const PortafolioContainer = () => {
                             de las principales 100 criptomonedas del mercado.
                         </p>
                         <ul>
-                            <li><a href="#"><i className='bx bxl-html5'></i></a></li>
-                            <li><a href="#"><i class='bx bxl-css3' ></i></a></li>
                             <li><a href="#"><i class='bx bxl-sass' ></i></a></li>
                             <li><a href="#"><i class='bx bxl-javascript' ></i></a></li>
                         </ul>
@@ -77,8 +88,6 @@ const PortafolioContainer = () => {
                         <a href="https://nasanchez7.github.io/ecommerce/">Ecommerce MultiMarc</a>
                         <p>MultiMarc es un ecommerce creado como proyecto final para el curso de JavaScript de Coder House.</p>
                         <ul>
-                            <li><a href="#"><i className='bx bxl-html5'></i></a></li>
-                            <li><a href="#"><i class='bx bxl-css3' ></i></a></li>
                             <li><a href="#"><i class='bx bxl-sass' ></i></a></li>
                             <li><a href="#"><i class='bx bxl-javascript' ></i></a></li>
                         </ul>
@@ -116,8 +125,6 @@ const PortafolioContainer = () => {
                         <a href="https://nasanchez7.github.io/iTask/">iTask</a>
                         <p>iTask es un simple app de lista de tareas echa con TypeScript.</p>
                         <ul>
-                            <li><a href="#"><i className='bx bxl-html5'></i></a></li>
-                            <li><a href="#"><i class='bx bxl-css3' ></i></a></li>
                             <li><a href="#"><i class='bx bxl-sass' ></i></a></li>
                             <li><a href="#"><i class='bx bxl-typescript'></i></a></li>
                         </ul>
@@ -157,8 +164,6 @@ const PortafolioContainer = () => {
                             nuevo usuario e iniciar sesion con el mediante localStorage.
                         </p>
                         <ul>
-                        <li><a href="#"><i className='bx bxl-html5'></i></a></li>
-                            <li><a href="#"><i class='bx bxl-css3' ></i></a></li>
                             <li><a href="#"><i class='bx bxl-sass' ></i></a></li>
                             <li><a href="#"><i class='bx bxl-javascript' ></i></a></li>
                         </ul>
@@ -168,11 +173,6 @@ const PortafolioContainer = () => {
             </div>
             </div>
         </div>
-
-
-
-
-
 	
     )
 }
