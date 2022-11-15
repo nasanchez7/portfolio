@@ -27,6 +27,10 @@ const SkillsContainer = () => {
                     <i className='bx bxl-react' ></i>
                     <h4>ReactJS</h4>
                 </div>
+                <div className="card">
+                    <i className='bx bxl-react' ></i>
+                    <h4>React Native</h4>
+                </div>
                 <div className="card next">
                     <img src="./next.png" alt="nextjs"></img>
                 </div>

@@ -12,6 +12,7 @@
         justify-items: center;
         align-items: center;
         padding: 20px;
+        gap: 30px;
         .proyecto-card{
             margin: 20px;
             height: 200px;
@@ -107,6 +108,9 @@
         .card .details .center ul li a:hover {
             transition: 0.3s;
             border-radius: 10px;
+        }
+        video{
+            width: 150px;
         }
     }
     .proyectos-list::-webkit-scrollbar {
