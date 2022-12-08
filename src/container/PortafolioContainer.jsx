@@ -7,6 +7,27 @@ const PortafolioContainer = () => {
 
             <div class="card">
                 <div class="image">
+                    <img src="/ticketfan.JPG"/>
+                </div>
+                <div class="details">
+                    <div class="center">
+                        <a href="https://tiketfan.vercel.app/">TicketFAN</a>
+                        <p> TicketFAN es una aplicacion de venta de tickets de eventos musicales, deportivos, etc desarrollada en una simulacion de trabajo en NoCountry la cual duro un mes, fue desarrollada
+                            por un grupo de 8 personas en las que se encontraban diseñadoras, desarrolladores backend y frontend en el cual yo forme parte.
+                        </p>
+                        <ul>
+                            <li><a href="#"><i className='bx bxl-react' ></i></a></li>
+                            <li><a href="#"><i class='bx bxl-redux'></i></a></li>
+                            <li><a href="#"><i class='bx bxl-figma'></i></a></li>
+                            <li><a href="#"><img src="/csharp.png" alt="csharp" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>TicketFAN</h3>
+            </div>
+
+            <div class="card">
+                <div class="image">
                     <img src="/allfilmsmobile.JPG"/>
                 </div>
                 <div class="details">
