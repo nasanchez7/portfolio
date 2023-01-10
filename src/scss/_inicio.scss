@@ -48,14 +48,13 @@
         .redes{
             display: flex;
             margin-top: 10px;
+            img{
+                width: 23px;
+            }
             i{
                 font-size: 25px;
-                color: $colorLetras;
-                margin-right: 5px;
-            }
-            i:hover{
                 color: $colorPrimario;
-                transition: 0.3s;
+                margin-right: 5px;
             }
         }
     }

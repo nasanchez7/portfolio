@@ -8,11 +8,14 @@ const InicioContainer = () => {
                     <h2 className="nadir">Nadir Sanchez</h2>
                 </div>
                 <h4>
-                Soy un desarrollador React apasionado por la tecnologia y por el desarrollo de software
+                Soy un desarrollador React apasionado por la tecnologia y por el desarrollo de software,
+                actualmente me encuentro ofreciendo mis servicios como Freelancer en Fiverr y en busca de mi primer
+                empleo IT.
                 </h4>
                 <div className="redes">
                     <a href="https://www.linkedin.com/in/nadirsanchez/"><i className='bx bxl-linkedin-square'></i></a>
                     <a href="https://github.com/nasanchez7"><i className='bx bxl-github'></i></a>
+                    <a href="https://es.fiverr.com/nadirsanchez"><img src="/fiverr.png" alt="fiverr"/></a>
                 </div>
                 <div className="descarga">
                     <i className='bx bxs-archive-in'></i>

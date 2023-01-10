@@ -18,6 +18,10 @@ const Nav = () => {
                     <i className='bx bxs-spreadsheet'></i>
                     <Link to={"/habilidades"}>Habilidades</Link>
                 </div>
+                <div className="item"> 
+                    <i class='bx bxs-book-content'></i>
+                    <Link to={"/experiencia"}>Experiencia</Link>
+                </div>
                 <div className="item">
                     <i className='bx bxs-dashboard'></i>
                     <Link to={"/portafolio"}>Portafolio</Link>

@@ -5,6 +5,7 @@ import InicioContainer from "./container/InicioContainer";
 import SkillsContainer from "./container/SkillsContainer";
 import PortafolioContainer from "./container/PortafolioContainer";
 import ContactoContainer from "./container/ContactoContainer";
+import ExperienciaContainer from './container/ExperienciaContainer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path={"/habilidades"} element={<SkillsContainer/>}/>
           <Route path={"/portafolio"} element={<PortafolioContainer/>}/>
           <Route path={"/contacto"} element={<ContactoContainer/>}/>
+          <Route path={"/experiencia"} element={<ExperienciaContainer/>}/>
         </Routes>
       </BrowserRouter>
     </div>
