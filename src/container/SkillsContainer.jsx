@@ -43,7 +43,7 @@ const SkillsContainer = () => {
                 </div>
                 <div className="card">
                     <img src="/diseño.png" alt="diseño"/>
-                    <h4>Herramientas de diseño</h4>
+                    <h4>Herramientas de diseño.</h4>
                     <p>Conocimientos minimos</p>
                 </div>
             </div>
