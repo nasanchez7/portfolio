@@ -3,9 +3,45 @@ const PortafolioContainer = () => {
         <div className="portafolioContainer animate__animated animate__fadeInDown">
             <h3>Mis proyectos</h3>
             <div className="proyectos-list">
-                <div class="card">
+                <div className="card">
                     <div class="image">
-                        <img src="/ticketfan.JPG"/>
+                        <img src="/fiver2.JPG" alt="fiver2"/>
+                    </div>
+                    <div class="details">
+                        <div class="center">
+                            <a href="https://steady-tartufo-e5d65d.netlify.app/">Web para cliente en Fiverr</a>
+                            <p> 
+                                Pedido de fiverr para cliente que requeria trasladar un diseño echo en Figma a una pagina html con bootstrap y css puro.
+                            </p>
+                            <ul>
+                                <li><a href="#"><i className='bx bxl-html5'></i></a></li>
+                                <li><a href="#"><i className='bx bxl-css3' ></i></a></li>  
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Pedido para cliente en Fiverr #2</h3>
+                </div>
+                <div className="card">
+                    <div class="image">
+                        <img src="/fiver1.JPG" alt="fiver1" />
+                    </div>
+                    <div class="details">
+                        <div class="center">
+                            <a href="https://impacto33.netlify.app/">Web para cliente en Fiverr</a>
+                            <p> 
+                                Pedido de fiverr para cliente que requeria trasladar un diseño echo en Figma a una pagina html con bootstrap y css puro.
+                            </p>
+                            <ul>
+                                <li><a href="#"><i className='bx bxl-html5'></i></a></li>
+                                <li><a href="#"><i className='bx bxl-css3' ></i></a></li>   
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Pedido para cliente en Fiverr #1</h3>
+                </div>
+                <div className="card">
+                    <div class="image">
+                        <img src="/ticketfan.JPG" alt="ticketfan"/>
                     </div>
                     <div class="details">
                         <div class="center">
@@ -23,9 +59,9 @@ const PortafolioContainer = () => {
                     </div>
                     <h3>TicketFAN</h3>
                 </div>
-                <div class="card">
+                <div className="card">
                     <div class="image">
-                        <img src="/allfilmsmobile.JPG"/>
+                        <img src="/allfilmsmobile.JPG" alt="allfilmsmobile"/>
                     </div>
                     <div class="details">
                         <div class="center">
@@ -42,7 +78,7 @@ const PortafolioContainer = () => {
                 </div>
                 <div className="card">
                     <div className="image">
-                        <img src="/allfilms.JPG"/>
+                        <img src="/allfilms.JPG" alt="allfilms"/>
                     </div>
                     <div className="details">
                         <div className="center">
@@ -50,7 +86,7 @@ const PortafolioContainer = () => {
                             <p> allFilms es una aplicacion de peliculas y series, creada con Next JS y la API de themoviedb 
                             </p>
                             <ul>
-                                <li><img src="./next2.png" alt="nextjs"></img></li>
+                                <li><a href="#"><img src="./next2.png" alt="nextjs"></img></a></li>
                             </ul>
                         </div>
                     </div>
@@ -58,7 +94,7 @@ const PortafolioContainer = () => {
                 </div>
                 <div className="card">
                     <div className="image">
-                        <img src="/allmusic.JPG"/>
+                        <img src="/allmusic.JPG" alt="allmusic"/>
                     </div>
                     <div className="details">
                         <div className="center">
@@ -76,7 +112,7 @@ const PortafolioContainer = () => {
                 </div>    
                 <div className="card">
                     <div className="image">
-                        <img src="/open.JPG"/>
+                        <img src="/open.JPG" alt="openmarket"/>
                     </div>
                     <div className="details">
                         <div className="center">
@@ -94,7 +130,7 @@ const PortafolioContainer = () => {
                 </div>
                 <div className="card">
                     <div className="image">
-                        <img src="/iCrypto.JPG"/>
+                        <img src="/iCrypto.JPG" alt="crypto"/>
                     </div>
                     <div className="details">
                         <div className="center">
@@ -112,7 +148,7 @@ const PortafolioContainer = () => {
                 </div>
                 <div className="card">
                     <div className="image">
-                        <img src="/multimarc.jpg"/>
+                        <img src="/multimarc.jpg" alt="multimarc"/>
                     </div>
                     <div className="details">
                         <div className="center">
@@ -128,7 +164,7 @@ const PortafolioContainer = () => {
                 </div>
                 <div className="card">
                     <div className="image">
-                        <img src="/films.jpg"/>
+                        <img src="/films.jpg" alt="myfilms"/>
                     </div>
                     <div className="details">
                         <div className="center">
@@ -147,7 +183,7 @@ const PortafolioContainer = () => {
                 </div>
                 <div className="card">
                     <div className="image">
-                        <img src="/itask.jpg"/>
+                        <img src="/itask.jpg" alt="itask"/>
                     </div>
                     <div className="details">
                         <div className="center">
@@ -163,7 +199,7 @@ const PortafolioContainer = () => {
                 </div>
                 <div className="card">
                     <div className="image">
-                        <img src="/burger.jpg"/>
+                        <img src="/burger.jpg" alt="burger"/>
                     </div>
                     <div className="details">
                         <div className="center">
@@ -181,7 +217,7 @@ const PortafolioContainer = () => {
                 </div>
                 <div className="card">
                     <div className="image">
-                        <img src="/nike.jpg"/>
+                        <img src="/nike.jpg" alt="nikeform"/>
                     </div>
                     <div className="details">
                         <div className="center">
