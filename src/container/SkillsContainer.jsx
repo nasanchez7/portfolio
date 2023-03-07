@@ -41,6 +41,13 @@ const SkillsContainer = () => {
                 <div className="card next">
                     <img src="./nodejs.png" alt="nodejs"></img>
                 </div>
+                <div className="card next">
+                    <img src="./expressVerde.png" alt="express"></img>
+                    <h4>Express JS</h4>
+                </div>
+                <div className="card next">
+                    <img src="./mongodbVerde.png" alt="mongodb"></img>
+                </div>
                 <div className="card">
                     <img src="/diseño.png" alt="diseño"/>
                     <h4>Herramientas de diseño.</h4>

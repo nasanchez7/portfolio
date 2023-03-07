@@ -24,7 +24,11 @@ const Nav = () => {
                 </div>
                 <div className="item">
                     <i className='bx bxs-dashboard'></i>
-                    <Link to={"/portafolio"}>Portafolio</Link>
+                    <Link to={"/proyectos/freelance"}>Proyectos Freelance</Link>
+                </div>
+                <div className="item">
+                    <i className='bx bxs-dashboard'></i>
+                    <Link to={"/proyectos/personales"}>Proyectos personales</Link>
                 </div>
                 <div className="item">
                     <i className='bx bxs-phone' ></i>

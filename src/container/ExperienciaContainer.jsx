@@ -32,7 +32,7 @@ const ExperienciaContainer = () => {
                         <i class='bx bx-code-alt'></i>
                         <h4>Emulacion de entorno de trabajo en NoCountry</h4>
                     </div>
-                    <h5> Noviembre 2022 hasta la actualidad </h5>
+                    <h5> Noviembre 2022 hasta Enero 2022 </h5>
                     <p>En esta emulacion aprendi: </p>
                     <div className="servicesList">
                         <div className="service">
