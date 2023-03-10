@@ -4,8 +4,8 @@ const InicioContainer = () => {
             <div className="info animate__animated animate__fadeInDown">
                 <h3>ReactJS Developer</h3>
                 <div className="info-nombre">
-                    <h2>Hola! Yo soy</h2>
-                    <h2 className="nadir">Nadir Sanchez</h2>
+                    <h2>Hola! Soy</h2>
+                    <h2 className="nadir">Nadir</h2>
                 </div>
                 <h4>
                 Soy un desarrollador React apasionado por la tecnologia y por el desarrollo de software,
