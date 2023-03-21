@@ -6,7 +6,7 @@ const CardProyecto = ({data}) => {
             </div>
             <div class="details">
                 <div class="center">
-                    <a href={data.imagen} > {data.titulo} </a>
+                    <a href={data.link} > {data.titulo} </a>
                     <p> 
                         {data.descripcion}
                     </p>
