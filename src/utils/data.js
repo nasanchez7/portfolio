@@ -130,8 +130,8 @@ export const proyectosPersonales = [
 export const proyectosFreeLance = [
     {
         imagen: "/maetti.JPG",
-        link: "https://maetti.netlify.app/",
-        titulo: "Pagina web fullstack para cliente sobre gestion de propiedades",
+        link: "https://maetti.com.ar/",
+        titulo: "WEB FULLSTACK PARA CLIENTE MAETTI - GESTION DE PROPIEDADES",
         descripcion: "Pedido de un cliente fuera de Fivver que necesitaba una web sobre gestion de propiedades que contenga formularios de contacto y lista de propiedades, todos estos datos vienen desde una base de datos echa en mongodb, desde la api se pueden visualizar los datos de los formularios y tambien cargar las propiedades manualmente. Ademas la web contiene la funcion de cambiar de idioma al ingles.",
         video: false,
         tecnologias: [
@@ -144,7 +144,7 @@ export const proyectosFreeLance = [
     {
         imagen: "/fiver1.JPG",
         link: "https://impacto33.netlify.app/",
-        titulo: "Personalizador de productos para un ecommerce",
+        titulo: "PERSONALIZADOR DE PRODUCTOS PARA CLIENTE ECOMMERCE IMPACTO33",
         descripcion: "Pedido de Fiverr para cliente que requeria trasladar un diseño echo en Figma a una pagina html con bootstrap y css puro.",
         video: false,
         tecnologias: [
@@ -156,7 +156,7 @@ export const proyectosFreeLance = [
     {
         imagen: "/fiver2.JPG",
         link: "https://steady-tartufo-e5d65d.netlify.app/",
-        titulo: "Web para cliente en Fiverr",
+        titulo: "WEB PARA CLIENTE DE FIVERR",
         descripcion: "Pedido de Fiverr para cliente que requeria trasladar un diseño echo en Figma a una pagina html con bootstrap y css puro.",
         video: false,
         tecnologias: [
