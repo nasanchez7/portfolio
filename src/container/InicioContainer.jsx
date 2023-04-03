@@ -8,7 +8,7 @@ const InicioContainer = () => {
                     <h2 className="nadir">Nadir</h2>
                 </div>
                 <h4>
-                Soy un desarrollador React apasionado por la tecnologia y por el desarrollo de software,
+                Desarrollador Full Stack freelance apasionado por el desarrollo de software,
                 actualmente me encuentro ofreciendo mis servicios como Freelancer en Fiverr y en busca de mi primer
                 empleo IT.
                 </h4>
@@ -19,7 +19,7 @@ const InicioContainer = () => {
                 </div>
                 <div className="descarga">
                     <i className='bx bxs-archive-in'></i>
-                    <a download="Curriculum" href="/NadirSanchezCV.docx">Descarga mi cv</a>
+                    <a download="Curriculum" href="/NadirSanchezCV.pdf">Descarga mi cv</a>
                 </div>
             </div>
             <div className="img animate__animated animate__fadeInRight">
