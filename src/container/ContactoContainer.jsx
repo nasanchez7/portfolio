@@ -5,7 +5,7 @@ const ContactoContainer = () => {
             <div className="contactos">
                 <div className="cardContacto">
                     <i className='bx bxs-phone' ></i>
-                    <h4>+54 11 6903 5923</h4>
+                    <h4>+54 11 3622 0852</h4>
                 </div>
                 <div className="cardContacto">
                     <i className='bx bxs-envelope'></i>

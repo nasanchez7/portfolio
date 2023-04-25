@@ -124,15 +124,39 @@ export const proyectosPersonales = [
             {icon: "bx bxl-figma", isImage: false},
             {icon: "/csharp.png", isImage: true}
         ]
+    },
+    {
+        imagen: "/figaromobile.jpg",
+        link: "",
+        titulo: "Figaro IOS",
+        descripcion: "Figaro es una aplicacion sobre barberias cercanas a tu ubicacion, donde puedes reservar turnos y elejir a tu profesional favorito.",
+        video: true,
+        videoLink: "/figaroVideo.mp4",
+        tecnologias: [
+            {icon: "bx bxl-react", isImage: false},
+            {icon: "bx bxl-redux", isImage: false}
+        ]
     }
 ]
 
 export const proyectosFreeLance = [
     {
+        imagen: "/indaxhosting.JPG",
+        link: "https://beta.demtic.com/",
+        titulo: "MAQUETADO DE TARJETAS, BOTONES, BARRA DE NAVEGACION Y OTROS ESTILOS DE LA WEB",
+        descripcion: "Pedido de un cliente de fiverr que requeria la maquetacion de diseños especificos en su pagina web. Se desarrollo y maqueto el diseño de las tarjetas, barra de navegacion, botones y algunas secciones de la web.",
+        video: false,
+        tecnologias: [
+            {icon: "bx bxl-html5", isImage: false},
+            {icon: "bx bxl-css3", isImage: false},
+            {icon: "bx bxl-javascript", isImage: false}
+        ]
+    },
+    {
         imagen: "/maetti.JPG",
         link: "https://maetti.com.ar/",
         titulo: "WEB FULLSTACK PARA CLIENTE MAETTI - GESTION DE PROPIEDADES",
-        descripcion: "Pedido de un cliente fuera de Fivver que necesitaba una web sobre gestion de propiedades que contenga formularios de contacto y lista de propiedades, todos estos datos vienen desde una base de datos echa en mongodb, desde la api se pueden visualizar los datos de los formularios y tambien cargar las propiedades manualmente. Ademas la web contiene la funcion de cambiar de idioma al ingles.",
+        descripcion: "Pedido de un cliente fuera de Fiverr que requeria una web sobre gestion de propiedades que contenga formularios de contacto y lista de propiedades, todos estos datos vienen desde una base de datos echa en mongodb, desde la api se pueden visualizar los datos de los formularios y tambien cargar las propiedades manualmente. Ademas la web contiene la funcion de cambiar de idioma al ingles.",
         video: false,
         tecnologias: [
             {icon: "/next2.png", isImage: true},

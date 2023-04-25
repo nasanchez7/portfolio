@@ -2,7 +2,7 @@ const InicioContainer = () => {
     return(
         <div className="inicioContainer">
             <div className="info animate__animated animate__fadeInDown">
-                <h3>ReactJS Developer</h3>
+                <h3>Desarrollador Full Stack</h3>
                 <div className="info-nombre">
                     <h2>Hola! Soy</h2>
                     <h2 className="nadir">Nadir</h2>
@@ -19,7 +19,7 @@ const InicioContainer = () => {
                 </div>
                 <div className="descarga">
                     <i className='bx bxs-archive-in'></i>
-                    <a download="Curriculum" href="/NadirSanchezCV.pdf">Descarga mi cv</a>
+                    <a download="Curriculum" href="/NadirSanchezCV.pdf">DESCARGA MI CV</a>
                 </div>
             </div>
             <div className="img animate__animated animate__fadeInRight">

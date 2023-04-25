@@ -24,6 +24,10 @@ const ExperienciaContainer = () => {
                             <i class='bx bxs-square-rounded'></i>
                             <small>Solucion de errores de HTML, CSS, Bootstrap o JavaScript</small>
                         </div>
+                        <div className="service">
+                            <i class='bx bxs-square-rounded'></i>
+                            <small>Mantenimiento de las webs de mis clientes</small>
+                        </div>
                     </div>
                 </div>
 
@@ -32,7 +36,7 @@ const ExperienciaContainer = () => {
                         <i class='bx bx-code-alt'></i>
                         <h4>Emulacion de entorno de trabajo en NoCountry</h4>
                     </div>
-                    <h5> Noviembre 2022 hasta Enero 2022 </h5>
+                    <h5> Noviembre 2022 hasta Abril 2023 (2 emulaciones en total) </h5>
                     <p>En esta emulacion aprendi: </p>
                     <div className="servicesList">
                         <div className="service">
